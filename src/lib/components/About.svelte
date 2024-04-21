@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-<main  class="container">
+<main class="container">
   <h2>비보이 브라더스 소개</h2>
   <div class="about">
     <figure class="image">
