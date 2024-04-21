@@ -1,10 +1,8 @@
 <script>
-
+  import Home from "./lib/components/Home.svelte";
 </script>
 
-<main>
-  <h1>App</h1>
-</main>
+<Home />
 
 <style>
  
