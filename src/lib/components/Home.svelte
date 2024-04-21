@@ -11,7 +11,6 @@
     src="/video/title.mp4"
   ></video>
 </main>
-
 <Footer />
 
 <style>
