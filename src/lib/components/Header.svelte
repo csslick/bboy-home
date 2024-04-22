@@ -5,7 +5,7 @@
     </a>
   </div>
   <nav>
-    <ul>
+     <ul>
       <li><a href="/">home</a></li>
       <li><a href="#/about">about</a></li>
       <li><a href="#/news">news</a></li>
