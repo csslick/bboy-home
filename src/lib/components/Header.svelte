@@ -18,6 +18,7 @@
   header {
     text-align: center;
     padding: 25px;
+    margin-bottom: 30px;
     .logo { margin-bottom: 15px; }
 
     nav ul {
