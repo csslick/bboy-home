@@ -25,4 +25,9 @@ const news = [
   },
 ];
 
+// news에서 데이터 하나 가져오기
+export const getNews = (id) => {
+  return news.find(news => news.id === id);
+}
+
 export default news;

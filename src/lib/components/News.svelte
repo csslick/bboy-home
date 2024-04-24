@@ -10,18 +10,18 @@
   <h2>비보이 브라더스 활동</h2>
   <div class="news">
     {#each news as item}
-      <div class="news-item">
+      <a class="news-item" href="#/detail">
         <img src={item.imgUrl} alt={item.title}>
         <div class="item-text">
           <h3>{item.title}</h3>
           <p class="date">{item.date}</p>
           <div class="hashtag">
             {#each item.hashtag as tag}
-              <span>#{tag}</span>&nbsp;
+              <span>#{tag}</span>
             {/each}
           </div>
         </div>
-      </div>
+      </a>
     {/each}
   </div>
 </main>
@@ -44,6 +44,10 @@
     .date, .hashtag {
       font-size: 15px;
       color: #666;
+    }
+    a{ 
+      color: inherit; 
+      text-decoration: none;
     }
   }
 
