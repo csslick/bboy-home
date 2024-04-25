@@ -17,7 +17,7 @@
 <main class="container">
   <div class="main-header">
     <h2>{news.title}</h2>
-    <p class="date"> 2022-10-11</p>
+    <p class="date">{news.date}</p>
     <img src={news.detailImgUrl} alt={news.title}>
   </div>
   <article>
