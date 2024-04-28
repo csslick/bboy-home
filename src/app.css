@@ -44,3 +44,8 @@ p {
   margin: 0 auto;
   background: #ccc;
 }
+
+
+@media (max-width: 767px) {
+ body { padding: 0; }
+}

@@ -44,4 +44,15 @@
   .container {
     background: #fff;
   }
+
+  @media (max-width: 516px) {
+    .container {
+      padding: 20px;
+    }
+    .contact {
+      flex-direction: column;
+      gap: 20px;
+      figure, address { width: 100%; }
+    }
+  } 
 </style>

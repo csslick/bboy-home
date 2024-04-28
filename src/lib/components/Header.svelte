@@ -34,4 +34,12 @@
       }
     }
   }
+
+  @media (max-width: 516px) {
+    header {
+      padding: 25px 0;
+      margin-bottom: 0;
+    }
+  }
+
 </style>

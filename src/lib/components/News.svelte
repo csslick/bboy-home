@@ -54,4 +54,18 @@
   .container {
     background: #fff;
   }
+
+  @media (max-width: 516px) {
+    .container {
+       padding: 20px;
+     }
+    .news {
+       flex-direction: column;
+       gap: 20px;
+      .news-item {
+         width: 100%;
+         margin-bottom: 40px;
+       }
+     }
+  }
 </style>

@@ -29,4 +29,15 @@
   .container {
     background: #fff;
   }
+
+  @media (max-width: 516px) {
+    .container {
+      padding: 20px;
+    }
+   .about {
+      flex-direction: column;
+      gap: 20px;
+      figure, .content { width: 100%; }
+    }
+  }
 </style>

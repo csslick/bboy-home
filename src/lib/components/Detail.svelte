@@ -40,4 +40,15 @@
   .container {
     background: #fff;
   }
+
+  @media (max-width: 516px) {
+    .container {
+      padding: 20px;
+    }
+   .main-header {
+      img {
+        width: 100%;
+      }
+    }
+  } 
 </style>

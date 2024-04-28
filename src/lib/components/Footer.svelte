@@ -8,4 +8,11 @@
     margin-top: 50px;
     color: #444;
   }
+
+  @media (max-width: 516px) {
+    footer {
+      margin-top: 0px;
+      padding: 20px;
+    }
+  }
 </style>
