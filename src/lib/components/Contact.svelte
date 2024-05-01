@@ -1,12 +1,3 @@
-<script>
-// @ts-nocheck
-
-  import Header from './Header.svelte';
-  import Footer from './Footer.svelte';
-</script>
-
-<Header />
-
 <main class="container">
   <h2>최고의 무대를 선사하겠습니다.</h2>
   <div class="contact">
@@ -26,8 +17,6 @@
     </address>
   </div>
 </main>
-
-<Footer />
 
 <style lang="scss">
   .contact {

@@ -1,11 +1,8 @@
 <script>
-  import Header from './Header.svelte';
-  import Footer from './Footer.svelte';
   import news from '../../assets/news.js';
   console.log(news);
 </script>
 
-<Header />
 <main class="container">
   <h2>비보이 브라더스 활동</h2>
   <div class="news">
@@ -25,7 +22,6 @@
     {/each}
   </div>
 </main>
-<Footer />
 
 <style lang="scss">
   .news {

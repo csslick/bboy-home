@@ -1,14 +1,8 @@
-<script>
-  import Header from './Header.svelte';
-  import Footer from './Footer.svelte';
-</script>
-
-<Header />
 <main class="container">
   <h2>비보이 브라더스 소개</h2>
   <div class="about">
     <figure class="image">
-      <img src="/images/about.jpg" alt="about">
+      <img src="images/about.jpg" alt="about">
     </figure>
     <div class="content">
       <p>브레이크 댄스의 시초는 미국이지만, 현재는 전 세계 200여 개 나라에 브레이크 댄스 씬이 존재합니다. 이 중에서도 한국은 매년 세계 대회에서 우수한 성적을 거두며 비보잉 강국으로서 자리매김하고 있습니다. 때문인지 한국의 비보이들이 출전한 배틀 영상에서는 한국 비보이들은 차원이 다르다는 댓글이 많이 달리기도 하는데요. 한국의 비보이는 만 명이 넘게 존재하며, 이들은 함께 뭉쳐 크루를 이루고 있습니다.</p>
@@ -16,7 +10,6 @@
     </div>
   </div>
 </main>
-<Footer />
 
 <style lang="scss">
   .about {

@@ -1,9 +1,6 @@
 <script>
-  import Header from './Header.svelte';
-  import Footer from './Footer.svelte';
   // news 데이터 가져오는 함수
   import { getNews } from '../../assets/news';
-    import News from './News.svelte';
 
   // params 가져오기(props로 전달)
   export let params = {};
@@ -13,7 +10,6 @@
 
 </script>
 
-<Header />
 <main class="container">
   <div class="main-header">
     <h2>{news.title}</h2>
@@ -24,7 +20,6 @@
     {@html news.desc}
   </article>
 </main>
-<Footer />
 
 <style lang="scss">
   .main-header {
